@@ -1,15 +1,21 @@
 .fixed {
     position: fixed;
     width: 100vw;
-    background-color: blue;
+    background-color: white;
+    text-align: center;
 }
-
+.logo {
+    width: 115px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .nav {
-    
+    font-family: 'Rubik', sans-serif;  
 
 }
 .menu {
     font-size: 16px;
+    color: #4a4a4a;
 }
 .menublog {
     margin-right: 20px;
