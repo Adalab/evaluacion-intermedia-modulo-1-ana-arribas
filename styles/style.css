@@ -1,0 +1,67 @@
+html {
+    font-size: 16px;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.logo {
+    width: 115px;
+    margin-top: 10px;
+}  
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    list-style: none;
+    padding: 10px 10px;
+}    
+.link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #4a4a4a;
+    text-transform: uppercase;
+}
+.link:hover {
+    color: #3CDBC0;
+}
+.creating {
+    background-color: #3CDBC0;
+    color: #FFFFFF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.diversity {
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+@media all and (min-width: 768px) {
+.diversity {
+    font-size: 2.5rem; 
+}   
+.header {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo {
+ margin: 20px 0 20px 30px;
+}
+.menucontact {
+margin-right: 30px;
+}
+}
